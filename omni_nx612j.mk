@@ -13,17 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# Inherit from the common Open Source product configuration
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_nx612j
 PRODUCT_DEVICE := nx612j
 PRODUCT_BRAND := nubia
-PRODUCT_MODEL := nx612j
+PRODUCT_MODEL := Nubia V18
 PRODUCT_MANUFACTURER := nubia
 
 PRODUCT_AAPT_CONFIG := normal

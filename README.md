@@ -1,4 +1,4 @@
-Copyright 2018 - The LineageOS Project
+TeamWin Recovery Project
 
 Device configuration for Nubia V18 (nx612j).
 =======================================================
