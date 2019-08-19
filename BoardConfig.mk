@@ -22,7 +22,7 @@
 #
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := nx612j
+TARGET_OTA_ASSERT_DEVICE := nx617j
 
 # Architecture
 TARGET_ARCH := arm64
@@ -60,7 +60,7 @@ BOARD_KERNEL_OFFSET = 0x00008000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/nubia/msm8953
-TARGET_KERNEL_CONFIG := lineageos_nx612j_defconfig
+TARGET_KERNEL_CONFIG := lineageos_nx617j_defconfig
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Partitions
@@ -80,7 +80,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/nubia/nx612j/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/nubia/nx617j/recovery.fstab
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_THEME := portrait_hdpi
 TARGET_RECOVERY_QCOM_RTC_FIX := true

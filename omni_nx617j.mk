@@ -19,10 +19,10 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_nx612j
-PRODUCT_DEVICE := nx612j
+PRODUCT_NAME := omni_nx617j
+PRODUCT_DEVICE := nx617j
 PRODUCT_BRAND := nubia
-PRODUCT_MODEL := Nubia V18
+PRODUCT_MODEL := Nubia N3 CMCC
 PRODUCT_MANUFACTURER := nubia
 
 PRODUCT_AAPT_CONFIG := normal
@@ -31,5 +31,5 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_GMS_CLIENTID_BASE := android-zte
 
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=nx612j PRODUCT_NAME=nx612j
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=nx617j PRODUCT_NAME=nx617j
 
